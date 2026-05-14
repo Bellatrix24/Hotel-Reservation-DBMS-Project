@@ -1,0 +1,2 @@
+-- 06_indexes.sql
+-- Indexes for performance optimization

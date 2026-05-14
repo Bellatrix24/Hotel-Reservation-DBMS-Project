@@ -1,0 +1,2 @@
+-- 04_queries.sql
+-- Common queries for the Hotel Reservation System

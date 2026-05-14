@@ -1,0 +1,3 @@
+-- 02_ddl_tables.sql
+-- Table definitions for the Hotel Reservation System
+-- Includes Rooms, Guests, Reservations, Payments, etc.

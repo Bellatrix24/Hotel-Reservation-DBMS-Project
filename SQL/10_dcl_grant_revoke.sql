@@ -1,0 +1,2 @@
+-- 10_dcl_grant_revoke.sql
+-- Data Control Language scripts for user permissions

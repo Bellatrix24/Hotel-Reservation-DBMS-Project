@@ -1,0 +1,2 @@
+-- 03_dml_sample_data.sql
+-- Sample data for testing the Hotel Reservation System

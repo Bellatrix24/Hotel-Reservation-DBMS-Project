@@ -1,0 +1,2 @@
+-- 08_triggers.sql
+-- Triggers for automated actions and integrity

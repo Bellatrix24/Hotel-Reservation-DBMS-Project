@@ -1,0 +1,2 @@
+-- 07_functions.sql
+-- Stored functions for business logic
