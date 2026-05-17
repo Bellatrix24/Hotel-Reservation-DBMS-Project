@@ -1,16 +1,47 @@
 # Hotel Reservation DBMS Project
 
-This project focuses on designing and implementing a robust Database Management System for a Hotel Reservation system.
+## Overview
+This project is a database system for managing hotel operations like bookings, rooms, customers, billing, and payments.
 
-## Project Structure
+## Features
+- Customer management
+- Room and category management
+- Reservation system
+- Billing and payment tracking
+- Trigger automation
+- Transaction handling
+- Role-based access control
 
-- **ERD/**: Entity Relationship Diagrams.
-- **SQL/**: SQL scripts for database creation, table definitions, sample data, and more.
-- **Documentation/**: Detailed reports on normalization, ERD justification, and project explanation.
-- **Output/**: Sample outputs from various SQL queries.
+## Database Tables
+- Customers
+- RoomCategories
+- Rooms
+- Reservations
+- Bills
+- Payments
+- AuditLog
 
-## Getting Started
+## How to Run
+1. Open SSMS
+2. Run scripts in order:
+   - 01_create_database.sql
+   - 02_ddl_tables.sql
+   - 03_dml_sample_data.sql
+   - 05_views.sql
+   - 06_indexes.sql
+   - 07_functions.sql
+   - 08_triggers.sql
+   - 04_queries.sql
+   - 09_transactions.sql
+   - 10_dcl_grant_revoke.sql
 
-1. Run `SQL/01_create_database.sql` to initialize the database.
-2. Run `SQL/02_ddl_tables.sql` to create the table structure.
-3. Use `SQL/03_dml_sample_data.sql` to populate the database with sample data.
+## Sample Queries
+Includes complex queries using joins, subqueries, grouping, etc.
+
+## Author
+Saumya Singh
+
+## Disclaimer
+Some parts of the project such as sample data generation, and boilerplate scripts were assisted using AI tools.
+
+However, the overall design, understanding, testing, and integration were done manually.
