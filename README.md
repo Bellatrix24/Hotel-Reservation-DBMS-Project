@@ -12,6 +12,12 @@ This project is a database system for managing hotel operations like bookings, r
 - Transaction handling
 - Role-based access control
 
+## Database Design Approach
+The database follows a fully normalized relational structure (up to 3NF/BCNF). 
+- Primary and Foreign keys establish strict 1-to-M and 1-to-1 relationships between entities.
+- Data integrity is enforced using UNIQUE, NOT NULL, and CHECK constraints.
+- Denormalized views are created for reporting, and non-clustered indexes are applied for performance optimization.
+
 ## Database Tables
 - Customers
 - RoomCategories
